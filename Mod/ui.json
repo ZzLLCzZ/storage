@@ -1,13 +1,44 @@
 {
-  "buttons": [],
-  "sliders": [],
+  "buttons": [
+    {
+      "x": 214,
+      "y": -3,
+      "w": 25,
+      "h": 25,
+      "onClick": "upgrade_storage",
+      "enable": "upgrade_storage_avail"
+    }
+  ],
+  "sliders": [
+    {
+      "x": 10,
+      "y": 0,
+      "w": 209,
+      "h": 30,
+      "variable": "stored_value"
+    }
+  ],
   "text": [
     {
-      "x": 0,
-      "y": 0,
-      "w": 269,
-      "h": 30,
-      "static_text": "Template"
+      "x": 10,
+      "y": -7,
+      "w": 99,
+      "h": 16,
+      "dynamic_text": "stored"
+    },
+    {
+      "x": 109,
+      "y": -7,
+      "w": 100,
+      "h": 16,
+      "dynamic_text": "up_points"
+    },
+    {
+      "x": 214,
+      "y": -3,
+      "w": 25,
+      "h": 25,
+      "static_text": "+"
     }
   ]
 }

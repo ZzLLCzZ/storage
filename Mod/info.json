@@ -1,8 +1,8 @@
 {
-  "name": "Template Mod Does nothing",
-  "description": "An empty template",
+  "name": "storage module",
+  "description": "protecc some standard currency from prestige reset",
   "main_file": "main.py",
   "ui_file": "ui.json",
   "requires": [],
-  "chance": 0
+  "chance": 6
 }

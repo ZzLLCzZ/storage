@@ -5,6 +5,22 @@
       "y": -3,
       "w": 25,
       "h": 25,
+      "onClick": "put",
+      "enable": "put"
+    },
+    {
+      "x": 239,
+      "y": -3,
+      "w": 25,
+      "h": 25,
+      "onClick": "push",
+      "enable": "push"
+    },
+    {
+      "x": 5,
+      "y": -3,
+      "w": 25,
+      "h": 25,
       "onClick": "upgrade_storage",
       "enable": "upgrade_storage_avail"
     }
@@ -39,6 +55,13 @@
       "w": 25,
       "h": 25,
       "static_text": "+"
+    }
+    {
+      "x": 5,
+      "y": -3,
+      "w": 25,
+      "h": 25,
+      "static_text": "X"
     }
   ]
 }
